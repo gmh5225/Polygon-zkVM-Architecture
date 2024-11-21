@@ -1,6 +1,7 @@
 # Polygon-zkVM-Architecture
 
 
+## Architecture Diagram
 ```mermaid
 graph TB
     subgraph "Layer 1 - Ethereum Mainnet"
