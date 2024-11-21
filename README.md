@@ -53,3 +53,9 @@ graph TB
 - State Tree: Maintains L2 state
 - Transaction Mempool: Temporary storage for pending transactions
 - L2 Bridge Contract: Handles cross-chain assets using Burn & Release mechanism
+
+## Transaction Finality
+- Immediate: Transaction appears in L2 mempool
+- 1-3 minutes: Batch posted to L1 Consensus Contract
+- ~30 minutes: Final settlement with ZK proof on Ethereum
+
